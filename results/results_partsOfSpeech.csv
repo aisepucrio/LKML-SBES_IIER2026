@@ -1,0 +1,47 @@
+POS_Tag,Tag_Description,Linus_Count,Greg_Count,Total_Count
+#,#,4130,54004,58134
+$,$,4451,19009,23460
+'','',32076,52096,84172
+(,(,68540,385818,454358
+),),68785,377015,445800
+",",",",123033,375930,498963
+.,.,104212,140774,244986
+:,:,137673,660419,798092
+CC,Coordinating conjunction,73742,202393,276135
+CD,Cardinal number,81345,312455,393800
+DT,Determiner,208608,234443,443051
+EX,Existential there,5520,4646,10166
+FW,Foreign word,8031,34476,42507
+IN,Preposition or subordinating conjunction,256468,321201,577669
+JJ,Adjective,317692,757786,1075478
+JJR,"Adjective, comparative",9091,6643,15734
+JJS,"Adjective, superlative",3835,3059,6894
+LS,List item marker,13,50,63
+MD,Modal,45418,45235,90653
+NN,"Noun, singular or mass",727408,1959845,2687253
+NNP,"Proper noun, singular",98508,808796,907304
+NNPS,"Proper noun, plural",19,43,62
+NNS,"Noun, plural",124765,184364,309129
+PDT,Predeterminer,2623,2189,4812
+POS,Possessive ending,4596,6379,10975
+PRP,Personal pronoun,98502,78405,176907
+PRP$,Possessive pronoun,9708,12489,22197
+RB,Adverb,179836,164604,344440
+RBR,"Adverb, comparative",5402,3152,8554
+RBS,"Adverb, superlative",579,383,962
+RP,Particle,11548,13140,24688
+SYM,Symbol,2144,11910,14054
+TO,to,59022,69632,128654
+UH,Interjection,2186,4386,6572
+VB,"Verb, base form",149876,212857,362733
+VBD,"Verb, past tense",47638,105578,153216
+VBG,"Verb, gerund or present participle",43783,44517,88300
+VBN,"Verb, past participle",41572,91441,133013
+VBP,"Verb, non-3rd person singular present",91818,119046,210864
+VBZ,"Verb, 3rd person singular present",105787,134998,240785
+WDT,Wh-determiner,16542,14676,31218
+WP,Wh-pronoun,7496,6693,14189
+WP$,Possessive wh-pronoun,31,75,106
+WRB,Wh-adverb,13013,13792,26805
+``,``,26407,44443,70850
+TOTAL,All Tags,3423472,8095285,11518757
