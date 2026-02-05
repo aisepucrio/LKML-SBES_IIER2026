@@ -163,6 +163,23 @@ The `lkml_200_each.csv` file contains emails from the Linux Kernel Mailing List 
 - **Linus Torvalds**: `38d186e8d1752771441f67080ca38409d807c50a`
 - **Greg Kroah-Hartman**: `36c1ce7670ded355614f5635c72a01bef15f1c61`
 
+## Dataset (LKML5Ws) Exploratory Script (test.py)
+
+In addition to the CSV-based replication scripts, this repository contains an exploratory script (`test.py`) used during dataset selection and validation. The purpose of this script is to run lightweight checks directly on the decompressed **LKML5Ws** Parquet partitions (before converting anything to CSV), in order to verify message coverage and identify dataset limitations relevant to the replication.
+
+### Where to place it
+
+After decompressing LKML5Ws (see the dataset instructions in the LKML5Ws repository), place `test.py` **inside the dataset folder**, at the same level as the `LKML5Ws/` directory:
+
+
+### How to run
+
+From the dataset folder:
+
+python test.py
+
+(Note: this script may require a Python environment with Parquet support, e.g., polars or pyarrow. It is intended for exploratory inspection and is not part of the Python 2 replication pipeline.)
+
 ## Available Scripts
 
 ### 1. `partsOfSpeech_csv.py`
