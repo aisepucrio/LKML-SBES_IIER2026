@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 INPUT_PATH = BASE_DIR / 'results' / 'results_expletives.csv'
 OUTPUT_DIR = BASE_DIR / 'results'
 
-EXCLUDED_WORDS = {'wang', 'dick', 'willy', 'sorry'}
+EXCLUDED_WORDS = {'wang', 'dick', 'willy', 'cox'}
 TOP_N = 5
 
 
