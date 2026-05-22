@@ -32,7 +32,7 @@ posCorpus = []  # Greg
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Ler o CSV e separar emails por autor
-csv_path = os.path.join(script_dir, "messages_output.csv")
+csv_path = os.path.join(script_dir, "path-to-messages-csv")
 with open(csv_path, 'rb') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:

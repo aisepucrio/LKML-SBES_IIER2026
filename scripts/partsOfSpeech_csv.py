@@ -29,7 +29,7 @@ partsOfSpeechTagsGuideDict = {}
 
 # Carregar o guia de POS tags
 script_dir = os.path.dirname(os.path.abspath(__file__))
-with open(os.path.join(script_dir, "summaryOfPOSTags")) as fh:
+with open(os.path.join(script_dir, "path-to-summaryOfPOSTags")) as fh:
     content = fh.readlines()
     for line in content:
         splitLine = line.split("\t")
@@ -37,7 +37,7 @@ with open(os.path.join(script_dir, "summaryOfPOSTags")) as fh:
             partsOfSpeechTagsGuideDict[splitLine[1]] = splitLine[2].strip()
 
 # Ler o CSV e separar emails por autor
-csv_path = os.path.join(script_dir, "messages_output.csv")
+csv_path = os.path.join(script_dir, "path-to-messages-csv")
 with open(csv_path, 'rb') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:

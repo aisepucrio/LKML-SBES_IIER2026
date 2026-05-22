@@ -84,7 +84,7 @@ negCorpus = []  # Linus
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Ler o CSV e separar emails por autor
-csv_path = os.path.join(script_dir, "messages_output.csv")
+csv_path = os.path.join(script_dir, "path-to-messages-csv")
 with open(csv_path, 'rb') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
@@ -120,7 +120,7 @@ print "Loaded", len(posCorpus), "emails from Greg"
 #Read in a list of expletive words compiled by Google https://gist.github.com/jamiew/1112488
 #Assign this list to a variable called expletiveList
 expletiveList = []
-with open(os.path.join(script_dir, "googleListOfExpletives")) as fh:
+with open(os.path.join(script_dir, "path-to-google-list-of-expletives")) as fh:
     contents = fh.read()
     contents = contents.lower()
     for word in contents.split():

@@ -32,14 +32,14 @@ negCorpusCounts = []
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Carregar lista de palavroes do Google
-with open(os.path.join(script_dir, "googleListOfExpletives")) as fh:
+with open(os.path.join(script_dir, "path-to-google-list-of-expletives")) as fh:
     contents = fh.read()
     contents = contents.lower()
     for word in contents.split():
         myList.append(word)
 
 # Ler o CSV e separar emails por autor
-csv_path = os.path.join(script_dir, "messages_output.csv")
+csv_path = os.path.join(script_dir, "path-to-messages-csv")
 with open(csv_path, 'rb') as csvfile:
     reader = csv.DictReader(csvfile)
     total_rows = 0
