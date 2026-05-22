@@ -1,8 +1,8 @@
 Metric,Value
-Accuracy,0.9400000000000002
-True Positives,1641.9
-False Negatives,277.1
-False Positives,14.8
-True Negatives,2931.2
-Precision,0.9136456422585096
-Recall,0.9949762389680924
+Accuracy,0.929714937286203
+True Positives,6385.5
+False Negatives,192.5
+False Positives,732.1
+True Negatives,5844.9
+Precision,0.9681185405971489
+Recall,0.8886878516040747
